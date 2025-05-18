@@ -6,6 +6,7 @@ An app that detects your microphone and make the R.E.P.O robot head open or clos
 
 # How to use
 - Clone this repository
-Python 3 required
+- Install dependencies 
+  `pip install flask`
 - Run `python app.py` at the root folder of this project (**Python 3 required**), it will be running on localhost:25226
 - To use this in OBS as overlay, you just have to add `http://localhost:25226` as **Browser Source** to OBS (From my experience, 300×300 is just right)
