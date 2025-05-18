@@ -7,4 +7,4 @@ An app that detects your microphone and make the R.E.P.O robot head open or clos
 # How to use
 - Clone this repository
 Python 3 required
-- Run `python app.py` at the root folder of this project (**Python 3 required), it will be running on localhost:
+- Run `python app.py` at the root folder of this project (**Python 3 required), it will be running on localhost:25226
