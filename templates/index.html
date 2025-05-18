@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R.E.P.O Speaking Head Overlay</title>
+    <style>
+        img { width: 300px; height: auto; }
+    </style>
+</head>
+<body>
+    <img id="mic-img" src="/image"/>
+    
+    <script>
+        function updateImage() {
+            const img = document.getElementById("mic-img");
+            img.src = "/image?t=" + new Date().getTime();
+        }
+        setInterval(updateImage, 100);
+    </script>
+</body>
+</html>
